@@ -58,5 +58,13 @@ target/release/tokenizer examples/cat.png -t 1 -s 128
 
 ![cat_token](https://github.com/cmleinz/mj-tokenizer/blob/main/examples/cat_token.png?raw=true)
 
+Finally, if there is an up-scaled image that you would like to create a token of, simply omit the tile specification in the command, like so:
+
+```bash
+target/release/tokenizer examples/ratfolk.png 
+```
+
+![ratfolk_token](https://github.com/cmleinz/mj-tokenizer/blob/main/examples/ratfolk_token.png?raw=true)
+
 ## Upcoming
 I plan to add more features, and certainly more frames from which to choose from (currently there is only one available).
